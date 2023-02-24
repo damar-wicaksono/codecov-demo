@@ -9,6 +9,7 @@ The server accepts POST requests to the following endpoints:
 - `/api/divide`
 
 The values (`x` and `y`) are received via JSON.
+The server is run at 0.0.0.0:8080
 """
 from flask import (
     Flask,
